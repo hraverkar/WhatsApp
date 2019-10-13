@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<head>
-    <title>Send WhatsApp Message</title>
-</head>
-<header></header>
-<script type="text/javascript" src="index.js"></script>
+<html>
 
-<body>
-    <form>
-        <span>Enter Mobile No:<input type="text" id="number" name="number"/></span>
-        <span>Message<input type="textarea" id="message" name="msg"></span>
-        <input type="button" value="Send" onclick="sendClick()" />
-    </form>
+<head>
+    <title>Send WhatsApp Message without store contact : Harshal Raverkar </title>
+    <link rel='shortcut icon' type='image/x-icon' href='wh.ico' />
+</head>
+<header>
+    <h2 id="spn">Send WhatsApp Message</h2>
+</header>
+<script type="text/javascript" src="index.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<body background="whatsApp_Background.jpg">
+    <div>
+        <form>
+            <label>Enter Mobile No : </label>
+            <input type="text" id="number" name="number" placeholder="Enter Number.." /></span>
+            <label>Message : </label>
+            <input type="text" id="message" name="msg" placeholder="Enter message.."></span>
+            <input type="button" value="Send" onclick="sendClick()" />
+        </form>
+    </div>
+
+    <div>
+        <footer>
+            <p>Design by : <a href="https://hraverkar.netlify.com/" rel="noopener noreferrer" target="_blank">Harshal
+                    Raverkar</a></p>
+        </footer>
+    </div>
 </body>
+
+</html>
