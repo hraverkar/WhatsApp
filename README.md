@@ -4,4 +4,4 @@
 Send whatsapp message without storing contact number. 
 
 # Contact
-Contact : [Harshl Raverkar](https://hraverkar.netlify.com)
+Contact : [Harshal Raverkar](https://hraverkar.netlify.com)
